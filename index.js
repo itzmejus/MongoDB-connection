@@ -1,5 +1,5 @@
 //Database connection
-const dburl= "mongodb+srv://justin:justinbro@cluster0.9f9un.mongodb.net/test?retryWrites=true&w=majority"
+const dburl= "mongodb+srv://<username>:<password>@cluster0.9f9un.mongodb.net/<dbName>?retryWrites=true&w=majority"
 const connectionParams= {
     useNewUrlParser: true,
     useUnifiedTopology: true
